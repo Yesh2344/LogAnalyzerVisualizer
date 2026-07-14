@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
  * Log Analyzer class responsible for parsing log files and extracting relevant data.
  */
 public class LogAnalyzer {
+// tiny readability tweak
     private static final Pattern LOG_PATTERN = Pattern.compile("(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) (\\w+) (\\w+): (.*)");
 
     /**
