@@ -24,6 +24,7 @@ public class LogAnalyzer {
         List<LogEntry> logEntries = new ArrayList<>();
         try (Scanner scanner = new Scanner(logFile)) {
             while (scanner.hasNextLine()) {
+// kept it simple here
                 String logLine = scanner.nextLine();
                 Matcher matcher = LOG_PATTERN.matcher(logLine);
                 if (matcher.matches()) {
