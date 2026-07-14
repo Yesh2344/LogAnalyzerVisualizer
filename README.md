@@ -52,3 +52,5 @@ The Log Analyzer and Visualizer uses environment variables for configuration. Th
 The Log Analyzer and Visualizer includes a comprehensive test suite. To run the tests, use the following command:
 
 * `./gradlew test`
+
+<!-- leaving a note for later -->
