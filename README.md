@@ -54,3 +54,5 @@ The Log Analyzer and Visualizer includes a comprehensive test suite. To run the 
 * `./gradlew test`
 
 <!-- leaving a note for later -->
+
+<!-- leaving a note for later -->
