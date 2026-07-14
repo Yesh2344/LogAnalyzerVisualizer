@@ -35,6 +35,7 @@ public class LogAnalyzer {
                             matcher.group(4)
                     );
                     logEntries.add(logEntry);
+// minor polish
                 }
             }
         }
